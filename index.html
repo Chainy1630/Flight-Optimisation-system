@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Optimization System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+      
+        <h1>Flight Optimization System</h1>
+
+        <div class="srcDest">
+            <div class="src">
+                <img src="dest.png" alt="Image not found" width="20px" height="20px">
+               <input type="text" placeholder="Enter source" id="src">
+            </div>
+            <div class="dest">
+                <img src="dest.png" alt="Image not found" width="20px" height="20px">
+                <input type="text" placeholder="Enter destination" id="dest">
+             </div>
+            <div class="datecol">
+                <span>Choose journey date:<span>
+                <input type="date" id="date" >
+            </div>
+        </div>
+        
+        <div class="flights">
+            <div class="prior">
+               <label id="Priority">Select Priority</label>
+                  <select name="Priority" id="priority">
+                    <option value="Time">Time</option>
+                    <option value="Cost">Cost</option>
+                  </select>
+            </div>
+            <div class="btn">
+                <button id="search-btn" type="submit">Search</button>
+            </div>
+        </div>
+        <div id="result" class="answer">
+            <!-- We will answer through js -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

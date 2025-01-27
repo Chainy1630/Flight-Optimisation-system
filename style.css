@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+body{
+    background-color: rgb(92, 92, 123);
+    color:white;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.container{
+    width:60%;
+    max-width:600px;
+    border:0.3rem solid black;
+    border-radius: 10px;
+    padding:20px 40px;
+    padding-top:20px;
+    background-color: rgb(112, 87, 53);
+}
+.srcDest{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    padding:20px;
+}
+.src{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:1px;
+}
+.dest{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:1px;
+}
+.flights{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.priority{
+    border-radius: 2px;
+    border: 2px solid black;
+}
+.btn{
+    border-radius: 2px;
+    border: 2px solid black;
+    padding: 0;
+    margin:0;
+}
+.datecol{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
